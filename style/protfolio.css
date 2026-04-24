@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #FFF8F3;
+    padding-top: 51px;
+    
+}
+
+.open-sans-font{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: 900px;
+}
+.colorr{
+    color: #FD6E0A;
+    font-size: 45px;
+    font-weight: 900px;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+}
+nav .menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+    
+}
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 36px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
