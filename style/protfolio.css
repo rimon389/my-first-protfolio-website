@@ -6,7 +6,7 @@ header{
     background-color: #FFF8F3;
     background: url(../images/developer.png),url(../images/header_bg.png) ,#FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 38px 23px, bottom right;
     padding-top: 51px;
     
 }
@@ -56,6 +56,10 @@ nav .menu a{
     font-weight: bold;
     cursor: pointer;
 }
+.fbtn{
+    display: flex;
+    gap: 20px;
+}
 .banner{
     display: flex;
     margin: 45px 0 38px 230px;
@@ -84,7 +88,10 @@ nav .menu a{
     font-size: 18px;
     color: #757575;
     line-height: 30px;
+    margin-bottom: 30px;
 }
+
+
 .banner .banner-image1 img{
     max-width: 585px;
     vertical-align: middle;
@@ -238,3 +245,65 @@ hr{
   margin: 50px 0 113px 0;
   text-align: center;
 }
+footer{
+    background-color: #FFF8F3;
+    padding-top: 130px;
+    padding-bottom: 213px;
+   
+}
+.footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+    
+}
+.social{
+    width: 562px;
+}
+footer .footer-container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+footer .footer-container p{
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+    
+}
+footer .footer-container .icon a{
+    margin-right: 24px;
+}
+.form-container .msg{
+    margin-bottom: 28px;
+    font-size: 35px;
+    color: #181818 ;
+    white-space: nowrap;
+}
+.form-container input[type="text"]{
+    padding-right: 349px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    color: #757575;
+    
+
+}
+textarea{
+    padding-right: 349px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    color: #757575;
+
+}
+
